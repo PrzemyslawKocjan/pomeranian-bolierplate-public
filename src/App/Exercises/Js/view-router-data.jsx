@@ -11,6 +11,9 @@ import { DateTimeRouterMetaData } from './DateTime/router-data';
 import { JsFunctionBasicsRouterMetaData } from './JsFunctionBasics/router-data';
 import { HoistingRouterMetaData } from './Hoisting/router-data';
 import { ExerciseJsFunctionsRouterMetaData } from './ExerciseJsFunctions/router-data';
+import { JsSetTimeoutRouterMetaData } from './JsSetTimeout/router-data';
+import { JsSetInterwalRouterMetaData } from './JsSetInterwal/router-data';
+import { UseEffectRouterMetaData } from './UseEffect/router-data';
 
 export const blockRouterMetaData = [
   blockRouterMetaDataJsVariables1,
@@ -24,5 +27,8 @@ export const blockRouterMetaData = [
   JsFunctionBasicsRouterMetaData,
   HoistingRouterMetaData,
   ExerciseJsFunctionsRouterMetaData,
+  JsSetTimeoutRouterMetaData,
+  JsSetInterwalRouterMetaData,
+  UseEffectRouterMetaData,
 ];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
